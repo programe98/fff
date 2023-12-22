@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        background-color: #e5e4e4;
+        }
+        .logo-icon{
+           height: 50px;
+        }
+        #botao{
+            width: 60px;
+            height: 20px;
+             background-color: rgb(41, 70, 100);
+             color: white;
+             border: none;
+           margin-right: 40px;
+            width: 120px;
+            height: 50px;
+            border-radius: 23px;
+            font-weight: 700;
+            cursor: pointer;
+            border: 1px solid  rgb(41, 70, 100);
+            font-family: sans-serif;
+            transition: 0.5s;
+
+        }
+        #botao:hover{
+            background-color: transparent;
+            color:rgb(41, 70, 100);
+        }
+        .logo-icon:hover{
+           cursor: pointer;
+        }
+     
+    </style>
+</head>
+<body>
+    <nav class="header">
+<abbr title="pagina inicial do instadelivery"><img class="logo-icon" src="https://portal.instadelivery.com.br/_nuxt/img/logo-new.aa30210.png" alt="logo pagina home"></abbr>
+<abbr title="iniciar sessao criar | login"><button id="botao" for="%">iniciar</button></abbr>
+    </nav>
+
+</body>
+</html>
